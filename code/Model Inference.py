@@ -1,5 +1,5 @@
 # =========================================
-# EpiVLM Inference Pseudocode (Abstract Prompts)
+# Model Inference Pseudocode
 # =========================================
 
 import os, time
