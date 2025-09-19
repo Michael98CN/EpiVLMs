@@ -6,9 +6,10 @@
   <img src="https://img.shields.io/badge/Transformers-4.51.3-informational" />
   <img src="https://img.shields.io/badge/OS-Ubuntu%2020.04.6-blueviolet?logo=ubuntu" />
   <img src="https://img.shields.io/badge/GPU-3×A100%2040GB-9cf?logo=nvidia" />
-  <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-green" />
+  <img src="https://img.shields.io/badge/License-MIT-green?logo=github" />
   <img src="https://img.shields.io/badge/Version-1.0.0-orange" />
 </p>
+
 
 ---
 
@@ -31,7 +32,7 @@ Many epileptic seizures occur outside specialist supervision and remain under-re
 
 
 <p align="center">
-  <img src="./workflow.png" width="85%" alt="EpiVLM Workflow: data→segmentation→prompting→fine-tuning→evaluation" />
+  <img src="assets/workflow.png" width="85%" alt="EpiVLM Workflow: data→segmentation→prompting→fine-tuning→evaluation" />
 </p>
 
 **Stages**
@@ -46,7 +47,7 @@ Many epileptic seizures occur outside specialist supervision and remain under-re
 > Replace the path below with your Figure 5 image showing future application directions.
 
 <p align="center">
-  <img src="assets/fig5_applications.png" width="85%" alt="Potential clinical applications of EpiVLM" />
+  <img src="assets/validation-furture work.png" width="85%" alt="Potential clinical applications of EpiVLM" />
 </p>
 
 **Directions**
@@ -78,14 +79,6 @@ Access may be considered **upon reasonable request** and **IRB/ethics approval**
 
 - **Contact:** *Lei Chen* — *leilei_25@126.com*  
 - Please include affiliation, IRB approval details, and a brief data-use plan.
-
----
-
-## How to Request Information
-
-For environment nuances or evaluation protocol details (for use on your own IRB-approved data):  
-Email *[email@domain]* with subject: **EpiVLM: Information Request**  
-Include: affiliation, short project description, approvals, and specific questions.
 
 ---
 
