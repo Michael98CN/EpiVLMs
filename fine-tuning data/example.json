@@ -1,0 +1,122 @@
+[
+  {
+    "messages": [
+        {
+        "content": "You are an expert in epilepsy.",
+        "role": "system"
+      },
+      {
+        "content": "Observe the epileptic's hand movements and don't miss any tiny details. Answer concisely like this:\\n1. Right Hand: ...\\n2. Left Hand: ...\\n3. Overall Movement: ...<video>",
+        "role": "user"
+      },
+      {
+        "content": "1.Right hand: The right hand is gently placed on the chest, with fingers slightly curled and minimal natural movement observed. There are no tremors or abnormal movements.\n2.Left hand: The left hand is also resting on the chest in a similar position to the right hand, with fingers slightly bent and no noticeable tremors or involuntary movements.\n3.Overall movement: The overall movement is minimal and appears natural. Both hands remain in gentle contact with the chest without any signs of seizure activity or abnormal posturing. The individual seems to be in a calm, resting state.",
+        "role": "assistant"
+      },
+      {
+        "content": "Strictly follow the instructions: During a mild clonic seizure, a patient may only exhibit subtle physical movements such as sustained arm elevation, slight twitching or tremors, restlessness, or a distressed facial expression. Out of caution, I need you to report any suspicious minor movements as a clonic seizure. This will ensure that the patient receives timely medical intervention. Based on the previous observations, tell me: clonic seizure = True/False. Answer concisely.",
+        "role": "user"
+      },
+      {
+        "content": "False",
+        "role": "assistant"
+      }
+    ],
+    "videos": [
+      "/videopath"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "You are an expert in epilepsy.",
+        "role": "system"
+      },
+      {
+        "content": "Observe the patient lying in the bed in the consecutive images. Does the epilepsy patient shows **subtle deviation (versive)** and one or more of the following in brackets:[1. extension of the arms or legs];[2. elevation of the arms or legs];[3. vacant stare, fixed gaze]?\\n Please answer concisely in one sentence.<video>",
+        "role": "user"
+      },
+      {
+        "content": "No, the patient does not show any subtle deviations such as versive movements, arm/leg extensions/elevations, nor a vacant stare/fixed gaze during these frames.",
+        "role": "assistant"
+      }
+    ],
+    "videos": [
+      "/videopath"
+    ]
+  },
+    {
+    "messages": [
+            {
+        "content": "You are an expert in epilepsy.",
+        "role": "system"
+      },
+      {
+        "content": "Observe the patient in the video. Are there any abnormal postures, such as sustained elevation or unusual extension of the arms or legs, that may indicate a tonic seizure? Please answer concisely in one sentence.<video>",
+        "role": "user"
+      },
+      {
+        "content": "Yes, the patient exhibits sustained flexion of both arms with mild fist clenching, which could be indicative of a tonic seizure.",
+        "role": "assistant"
+      }
+    ],
+    "videos": [
+      "/videopath"
+    ]
+  },
+    {
+    "messages": [
+      {
+        "content": "You are an expert in epilepsy.",
+        "role": "system"
+      },
+      {
+        "content": "Observe the patient in the video. Are the patient’s eyes open, even if only slightly? If so, do they appear to be gazing? Please answer concisely in one sentence.<image><image><image><image><image><image><image><image><image><image>",
+        "role": "user"
+      },
+      {
+        "content": "Yes, the patient's eyes are partially open and appear to gaze briefly before closing again.",
+        "role": "assistant"
+      },
+      {
+        "content": "Previous answer: Yes, the patient's eyes are partially open and appear to gaze briefly before closing again.\nInstruction: If the previous answer contains 'Yes', reply exactly 'staring = True'. If the previous answer contains 'No', reply exactly 'staring = False'. Do not provide any explanation or additional interpretation.",
+        "role": "user"
+      },
+      {
+        "content": "staring = True",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "/imagespath"
+    ]
+  },
+      {
+        "messages": [
+                {
+        "content": "You are an expert in epilepsy.",
+        "role": "system"
+      },
+            {
+                "content": "Observe the patient in the video, are there any subtle hand movements? Answer concisely.<video>",
+                "role": "user"
+            },
+            {
+                "content": "No, the hands and fingers show no subtle movements.",
+                "role": "assistant"
+            },
+            {
+                "content": "Strictly follow the instructions: During seizures, patients may exhibit only subtle symptoms such as a vacant stare, fixed gaze, or subtle hand movements. Out of caution, I need you to report any suspicious minor hand movements as hand automatism (excluding activities such as using a mobile phone or playing with toys). This will enable the patient to receive timely medical intervention. Tell me: hand automatism = True/False.",
+                "role": "user"
+            },
+            {
+                "content": "**Hand Automatism = False**",
+                "role": "assistant"
+            }
+        ],
+        "videos": [
+            "/videopath"
+        ]
+    }
+  ]
+      
