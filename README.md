@@ -92,21 +92,60 @@ all-prompt.docx
 - LLaMA-Factory: https://github.com/hiyouga/LLaMA-Factory
 
 ---
+
 ## Simple Test
 
-### 1) 下载微调后模型
-从hugging face上下载
+### 1) Download the Fine-tuned Model  
+You can download the fine-tuned model from Hugging Face once it's uploaded.  
+**Model link**: [Hugging Face Model Link - Replace with your model's link here]
 
-### 2) 准备好测试数据
-使用code中videoclip.py或frame_extract.py来将原始数据进行预处理
 
-### 3）使用对应的模型推理代码
-prompt path:
-部署微调后模型，使用code/Model Inference.py代码进行推理测试,这里以tonic为例。
-需要将一些参数进行替换：
+### 2) Prepare the Test Data  
+Use the preprocessing scripts (`videoclip.py` or `frame_extract.py`) in the `code` directory to process your raw data into usable formats for inference.
 
-### others:
-我们工作使用的微调数据案例，路径为：fine-tuning data
+- **`videoclip.py`**: Slices videos into fixed-length segments (e.g., 5-second clips) for motor symptom analysis.
+- **`frame_extract.py`**: Extracts frames from videos for static frame analysis (e.g., staring).
+
+> Example usage for `videoclip.py`:
+```bash
+python code/videoclip.py --input "path/to/your/video.mp4" --out "path/to/output/clips" --win_sec 5 --stride_sec 5
+````
+
+> Example usage for `frame_extract.py`:
+
+```bash
+python code/frame_extract.py --input "path/to/your/video.mp4" --out "path/to/output/frames" --fps 2
+```
+
+### 3) Use the Model Inference Code
+
+**Prompt path**: `prompt/all-prompt.docx`
+
+Deploy the fine-tuned model and run inference using the `code/Model Inference.py` script. Below is an example with the **tonic** symptom, but you can modify the script for other symptoms as well.
+
+#### Modifications:
+
+* **`model_id`**: Replace with the path to the downloaded or local fine-tuned model folder or Hugging Face repo ID (once the model is uploaded).
+* **`root_folder`**: Replace with the path to your video or frame data folder.
+
+Example:
+
+```bash
+python code/Model Inference.py
+```
+
+
+---
+
+### Explanation of Key Sections:
+1. **Model Download (Step 1)**: This section tells the user how to download the fine-tuned model from Hugging Face (once uploaded), with a placeholder link that you can fill in later.
+2. **Test Data Preparation (Step 2)**: Explains how to use `videoclip.py` or `frame_extract.py` to process raw video data into testable clips or frames, which are then used by the inference model.
+3. **Model Inference (Step 3)**: Shows how to run inference for **tonic** (or any other symptom by adjusting parameters), including how to set `model_id` (for local or Hugging Face models) and `root_folder` (for the data directory).
+4. **Fine-tuning Data**: Points users to the `fine-tuning data/example.json` for reference to the training data used in the fine-tuned models.
+
+Once your model is uploaded to Hugging Face, just replace the placeholder with the actual model URL in **Step 1**.
+```
+
 
 ---
 
