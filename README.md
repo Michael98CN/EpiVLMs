@@ -63,19 +63,7 @@ all-prompt.docx
 2. **Segmentation & Prompts** — SAM2 patient silhouette extraction; symptom-aware prompt templates.
 3. **Fine-Tuning & Evaluation** — per-symptom datasets; held-out evaluation; latency & stability checks.
 
----
 
-## Figure 5 — Potential Clinical Applications
-
-<p align="center">
-  <img src="assets/validation-furture work.png" width="85%" alt="Potential clinical applications of EpiVLM" />
-</p>
-
-**Directions**
-- **Remote monitoring & early alerts:** near-real-time monitoring in home or resource-limited settings.  
-- **Onset-order–assisted localization:** combine symptom onset sequences with clinical context to support presurgical planning.  
-- **Automated typing & workflow support:** structured outputs for EHR integration, follow-up, and research data pipelines.  
-- **Scalable deployment:** adaptable to multi-center collaboration and cost-effective hardware.
 
 ---
 
@@ -142,7 +130,19 @@ python code/Model Inference.py
 ---
 
 
+## Potential Clinical Applications
 
+<p align="center">
+  <img src="assets/validation-furture work.png" width="85%" alt="Potential clinical applications of EpiVLM" />
+</p>
+
+**Directions**
+- **Remote monitoring & early alerts:** near-real-time monitoring in home or resource-limited settings.  
+- **Onset-order–assisted localization:** combine symptom onset sequences with clinical context to support presurgical planning.  
+- **Automated typing & workflow support:** structured outputs for EHR integration, follow-up, and research data pipelines.  
+- **Scalable deployment:** adaptable to multi-center collaboration and cost-effective hardware.
+
+---
 ## Data Availability
 
 The video dataset contains sensitive patient information and is **not publicly available** due to ethical and privacy considerations.  
