@@ -27,6 +27,7 @@
 ├─assets
 │ workflow.png
 │ validation-furture work.png
+| logo.png
 │
 ├─code
 │ frame_extract.py
@@ -89,6 +90,23 @@ all-prompt.docx
 **Referenced Repositories**
 - Qwen2.5-VL: https://github.com/QwenLM/Qwen2.5-VL  
 - LLaMA-Factory: https://github.com/hiyouga/LLaMA-Factory
+
+---
+## Simple Test
+
+### 1) 下载微调后模型
+从hugging face上下载
+
+### 2) 准备好测试数据
+使用code中videoclip.py或frame_extract.py来将原始数据进行预处理
+
+### 3）使用对应的模型推理代码
+prompt path:
+部署微调后模型，使用code/Model Inference.py代码进行推理测试,这里以tonic为例。
+需要将一些参数进行替换：
+
+### others:
+我们工作使用的微调数据案例，路径为：fine-tuning data
 
 ---
 
