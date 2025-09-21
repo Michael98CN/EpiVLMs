@@ -135,17 +135,8 @@ Example:
 python code/Model Inference.py
 ```
 
-
----
-
-### Explanation of Key Sections:
-1. **Model Download (Step 1)**: This section tells the user how to download the fine-tuned model from Hugging Face (once uploaded), with a placeholder link that you can fill in later.
-2. **Test Data Preparation (Step 2)**: Explains how to use `videoclip.py` or `frame_extract.py` to process raw video data into testable clips or frames, which are then used by the inference model.
-3. **Model Inference (Step 3)**: Shows how to run inference for **tonic** (or any other symptom by adjusting parameters), including how to set `model_id` (for local or Hugging Face models) and `root_folder` (for the data directory).
-4. **Fine-tuning Data**: Points users to the `fine-tuning data/example.json` for reference to the training data used in the fine-tuned models.
-
-Once your model is uploaded to Hugging Face, just replace the placeholder with the actual model URL in **Step 1**.
-```
+### 4) Others
+* The **fine-tuning dataset** we used for training the model is stored in the **`fine-tuning data`** folder, with an example in `example.json`. You can inspect or modify the dataset format in this folder.
 
 
 ---
