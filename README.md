@@ -15,8 +15,26 @@
 
 ## Overview
 
-### Problem
-Many epileptic seizures occur outside specialist supervision and remain under-recognized. Inpatient video-EEG is resource-intensive; outpatient/smartphone videos still need manual review, which is slow and difficult to scale.
+## Repository Map
+```
+│ LICENSE
+│ README.md
+│
+├─assets
+│ workflow.png
+│ validation-furture work.png
+│
+├─code
+│ frame_extract.py
+│ Model Inference.py
+│ videoclip.py
+│
+├─fine-tuning data
+│ example.json
+│
+└─prompt
+all-prompt.docx
+```
 
 ### Highlights (What’s new in this work)
 - **VLM pipeline for five semiologies**: tonic, clonic, versive, manual automatisms, and staring, covering both **clinical** and **home** environments.
@@ -44,8 +62,6 @@ Many epileptic seizures occur outside specialist supervision and remain under-re
 
 ## Figure 5 — Potential Clinical Applications
 
-> Replace the path below with your Figure 5 image showing future application directions.
-
 <p align="center">
   <img src="assets/validation-furture work.png" width="85%" alt="Potential clinical applications of EpiVLM" />
 </p>
@@ -71,6 +87,8 @@ Many epileptic seizures occur outside specialist supervision and remain under-re
 - LLaMA-Factory: https://github.com/hiyouga/LLaMA-Factory
 
 ---
+
+
 
 ## Data Availability
 
