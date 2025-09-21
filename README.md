@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" width="50%"  />
+  <img src="assets/logo.png" width="20%"  />
 </p>
 # EpiVLMs: A Multimodal Vision–Language Model System for Fast Seizure Detection and Classification Across Clinical and Home Environments
 
