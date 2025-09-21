@@ -41,7 +41,7 @@
 all-prompt.docx
 ```
 
-### Highlights (What’s new in this work)
+### Highlights
 - **VLM pipeline for five semiologies**: tonic, clonic, versive, manual automatisms, and staring, covering both **clinical** and **home** environments.
 - **Patient-centric visual focus**: SAM2 is used to extract patient silhouettes, reducing background distraction and improving robustness in cluttered scenes.
 - **Symptom-aware prompting**: concise, clinically grounded prompts tailored to each semiology; outputs standardized for evaluation.
