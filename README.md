@@ -1,3 +1,4 @@
+<img src="assets/logo.png" width="85%"  /> 
 # EpiVLMs: A Multimodal Vision–Language Model System for Fast Seizure Detection and Classification Across Clinical and Home Environments
 
 <p align="center">
