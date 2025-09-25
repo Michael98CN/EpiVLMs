@@ -85,7 +85,7 @@ all-prompt.docx
 
 ### 1) Download the Fine-tuned Model  
 You can download the fine-tuned model from Hugging Face once it's uploaded.  
-**Model link**: [[Hugging Face Model Link - Replace with your model's link here]](https://huggingface.co/Michael1130)
+**Model link**: [link](https://huggingface.co/Michael1130)
 
 
 ### 2) Prepare the Test Data  
