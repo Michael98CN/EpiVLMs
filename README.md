@@ -96,7 +96,7 @@ Use the preprocessing scripts (`videoclip.py` or `frame_extract.py`) in the `cod
 
 > Example usage for `videoclip.py`:
 ```bash
-python code/videoclip.py --input "/path/to/video.mp4" --out "/path/to/output/segments" --segment_duration 10 --step_size 5
+python code/videoclip.py
 ````
 
 > Example usage for `frame_extract.py`:
