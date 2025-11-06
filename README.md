@@ -2,7 +2,7 @@
   <img src="assets/logo.png" width="20%"  />
 </p>
 
-# EpiVLMs: A Multimodal Vision–Language Model System for Fast Seizure Detection and Classification Across Clinical and Home Environments
+# Towards Generalizable Seizure Monitoring: EpiVLM for Cross- Environment Detection and Classification
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python" />
