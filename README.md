@@ -67,6 +67,14 @@ all-prompt.docx
 
 ---
 
+## Recording Conditions
+
+<p align="center">
+  <img src="assets/different_conditions.png" width="85%" alt="heterogeneous recording conditions" />
+</p>
+
+---
+
 ## Environment
 
 - **OS:** Ubuntu 20.04.6  
