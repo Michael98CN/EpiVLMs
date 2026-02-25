@@ -28,12 +28,14 @@
 │ workflow.png
 │ validation-furture work.png
 | logo.png
+|
 │
 ├─code
 │ frame_extract.py
 │ Model Inference.py
 │ videoclip.py
-│
+│ post_processing.py
+|
 ├─fine-tuning data
 │ example.json
 │
@@ -93,7 +95,7 @@ all-prompt.docx
 
 ### 1) Download the Fine-tuned Model  
 You can download the fine-tuned model from Hugging Face once it's uploaded.  
-**Model link**: [link](https://huggingface.co/Michael1130)
+**Model link**: [link](https://www.modelscope.cn/models?name=Michael1130)
 
 
 ### 2) Prepare the Test Data  
